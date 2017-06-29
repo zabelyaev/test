@@ -1,3 +1,7 @@
 New branch
+<<<<<<< HEAD
 Edit From Dev
 Learn rebase
+=======
+Edit From Branch Master
+>>>>>>> Edit From Master
