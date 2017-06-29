@@ -1,12 +1,7 @@
 New branch
-<<<<<<< HEAD
-<<<<<<< HEAD
 Edit From Dev
 Learn rebase
-=======
 Edit From Branch Master
->>>>>>> Edit From Master
-=======
+Edit From Master
 Edit From Branch Master
 Edit From Dev
->>>>>>> 8941d4870005e3b24f83895482baafca93ccc003
