@@ -1,7 +1,0 @@
-New branch
-Edit From Dev
-Learn rebase
-Edit From Branch Master
-Edit From Master
-Edit From Branch Master
-Edit From Dev
