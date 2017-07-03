@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.selgorn.admmainpanel.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:background="#2E6FC8">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:background="#759BFB"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:background="#759BFB"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:background="#759BFB"
+        android:text="создать"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ScrollView
+        android:layout_width="389dp"
+        android:layout_height="465dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="52dp">
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:text="перейти"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:background="#759BFB"
+        android:text="Тип задания"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#759BFB"
+        android:text="Пункт отправления"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        tools:layout_editor_absoluteX="116dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#759BFB"
+        android:text="Пункт назначения"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        tools:layout_editor_absoluteX="116dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:text="Перейти"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:background="#759BFB"
+        android:text="Тип задания"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#759BFB"
+        android:text="Пункт отправления"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:layout_editor_absoluteX="116dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#759BFB"
+        android:text="Пункт назначения"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:layout_editor_absoluteX="116dp" />
+
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:text="Перейти"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#759BFB"
+        android:text="Пункт назначения"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:layout_editor_absoluteX="116dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:background="#759BFB"
+        android:text="Тип задания"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#759BFB"
+        android:text="Пункт отправления"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        tools:layout_editor_absoluteX="116dp" />
+
+</android.support.constraint.ConstraintLayout>
